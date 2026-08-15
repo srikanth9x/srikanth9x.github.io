@@ -1,0 +1,47 @@
+<section class="card" id="{{ include.title | slugify }}">
+  {% if include.url %}
+    <a href="{{ include.url }}"><h2>{{ include.title }}</h2></a>
+  {% else %}  
+    <h2>{{ include.title }}</h2>
+  {% endif %}
+  
+  {{ include.content | markdownify }}
+  
+  {% if include.images %}
+    <div class="images">
+      {% for image in include.images %}
+        <img src="{{ image | relative_url }}">
+      {% endfor %}
+    </div>
+  {% endif %}
+  
+  {% if include.youtube %}
+    <div class="youtube">
+      <iframe
+        src="https://www.youtube.com/embed/{{ include.youtube }}"
+        allowfullscreen>
+      </iframe>
+    </div>
+  {% endif %}
+  
+  {% if include.livedemo %}
+    <i class="iconoir-globe"></i> <a href="{{ include.livedemo }}" target="_blank">Live Demo</a>
+    &nbsp;
+  {% endif %}
+    {% if include.download %}
+    <i class="iconoir-download"></i> <a href="{{ include.download }}" target="_blank">Download</a>
+    &nbsp;
+  {% endif %}
+  {% if include.github %}
+    <i class="iconoir-github"></i> <a href="{{ include.github }}" target="_blank">Github Repo</a>
+    &nbsp;
+  {% endif %}
+  
+  {% if include.url %}
+    <a href="{{ include.url }}" class="cardAction">
+      <p>{{ include.link_text }}
+        <i class="iconoir-arrow-up-right"></i>
+      </p>
+    </a>
+  {% endif %}
+</section>

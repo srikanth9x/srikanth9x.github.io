@@ -1,0 +1,79 @@
+- title: In 30 Seconds
+  content: |
+    [Dittoify](https://srikanth9x.github.io/dittoify){: target="_blank"} is an interactive CSS tool that lets you design a button visually and copy the generated CSS into your own project.
+    
+    I built it to solve a problem I faced while building websites on my phone. It also became my first complete web project I built from scratch.
+    
+- title: Screenshot
+  images:
+  - /assets/images/projects/dittoify/dittoify.webp
+
+- title: Spark
+  content: |
+    I write code on my phone to build websites.
+    
+    Every time I wanted to style the website, I had to edit the CSS, run the website, check the result, go back to the editor, make another small change, and repeat the whole process again.
+    
+    If I had been using a laptop, I could have kept my editor and browser side by side. But on a phone, that wasn't reliable.
+    
+    At the same time, I was still following tutorials and didn't have any real projects of my own. I wanted to build something useful instead of practicing random examples.
+    
+    So I decided to build a tool that solved my own problem.
+    
+    
+- title: Vision
+  content: |
+    My goal wasn't to build a CSS framework.
+    
+    I wanted a simple tool where I could design a button visually, see the result instantly, and copy the generated CSS into my project.
+    
+    I also wanted to prove to myself that I could build a complete project instead of only following tutorials.
+    
+    
+- title: Journey
+  content: |
+    I started with a single button.
+    
+    I didn't want to waste my time and energy building something big like a CSS framework. I wanted to solve my own problem first, so I focused on one small thing instead of trying to build everything at once.
+    
+    I built a live preview where I could instantly see every change I made.
+    
+    Then I added controls to customize the button's colors, typography, borders, hover effects, and other styles.
+    
+    Once I was happy with the design, I could copy the generated CSS and use it directly in my project.
+    
+    With that, Dittoify solved the exact problem I had when building websites on my phone.
+    
+    
+- title: Challenges
+  content: |
+    The hardest part wasn't CSS.
+    
+    It was JavaScript.
+    
+    At that time, I was still a beginner.
+    
+    Every control had to update the preview instantly while also keeping its own value synchronized. When the user clicked Copy CSS, all those values had to be converted into valid CSS.
+    
+    Building this project taught me how interactive websites actually work instead of just creating static pages.
+    
+    
+- title: What I Learned
+  content: |
+    Dittoify completely changed the way I looked at programming.
+    
+    Before building it, I wasn't sure whether I could create a real project on my own.
+    
+    After finishing it, I became confident that I could build almost anything if I was willing to learn while building.
+    
+    That confidence became the starting point for all my later projects.
+    
+
+- title: Looking Back
+  content: |
+    I wouldn't build this tool again because better alternatives already exist. But I also wouldn't delete it. Dittoify reminds me where my journey started and the confidence it gave me to build bigger ideas.
+    
+    
+- title: Links
+  livedemo: https://srikanth9x.github.io/dittoify
+  github: https://github.com/srikanth9x/dittoify

@@ -1,0 +1,31 @@
+- title: In 30 Seconds
+  content: |
+    [Ruby Bird](https://srikanth9x.itch.io/ruby-bird){: target="_blank"} is a reimagining of Flappy Bird (Dong Nguyen, 2013) built as a learning project by following Harvard’s CS50 2D game development course.
+    
+    After completing [Ping Pong](/projects/ping-pong/), I moved on to the next game in the course and adapted it to work with a touchscreen.
+
+
+- title: Gameplay
+  youtube: DySLFdUJ660
+
+
+- title: Screenshots
+  images:
+  - /assets/images/projects/ruby-bird/start.webp
+  - /assets/images/projects/ruby-bird/play.webp
+  - /assets/images/projects/ruby-bird/score.webp
+  
+  
+- title: Journey
+  content: |
+    After completing [Ping Pong](/projects/ping-pong/), I started building Ruby Bird by following the course.
+    
+    I followed the instructor's implementation and made the necessary changes to the input code so that the game could be played on my phone's touchscreen instead of using a keyboard.
+    
+    The main idea was the same as with Ping Pong: I kept the game mechanics from the course and adapted the controls to the device I was using.
+    
+    
+- title: Links
+  download: https://srikanth9x.itch.io/ruby-bird
+  github: https://github.com/srikanth9x/ruby-bird
+  

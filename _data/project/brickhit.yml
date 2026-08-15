@@ -1,0 +1,30 @@
+- title: In 30 Seconds
+  content: |
+    [BrickHit](https://srikanth9x.itch.io/brickhit){: target="_blank"} is a reimagining of Breakout (Atari, 1976) built as a learning project by following Harvard’s CS50 2D game development course.
+    
+    It was the third game I built from the course, and like the previous two, I adapted the controls to work on a touchscreen.
+
+
+- title: Gameplay
+  youtube: URxfsRpGCqg
+
+
+- title: Screenshots
+  images:
+  - /assets/images/projects/brickhit/start.webp
+  - /assets/images/projects/brickhit/play.webp
+  - /assets/images/projects/brickhit/game-over.webp
+  
+
+
+- title: Journey
+  content: |
+    After completing [Ruby Bird](/projects/ruby-bird), I continued with the course and built Brick Hit by following the instructor step by step.
+    
+    I didn't make major changes to the game itself. I mainly adapted the input code so that I could play the game on my phone instead of using a keyboard.
+    
+    The game mechanics followed the course, while the controls were changed to work with the touchscreen.
+    
+- title: Links
+  download: https://srikanth9x.itch.io/brickhit
+  github: https://github.com/srikanth9x/brickhit

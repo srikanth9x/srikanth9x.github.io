@@ -1,0 +1,46 @@
+- title: In 30 Seconds
+  content: |
+    [Ganesh Chaturthi](https://srikanth9x.github.io/ganesh-chaturthi){: target="_blank"} is a small festival website inspired by a greeting card designed by my sister.
+    
+    I built it in a single evening as a digital version of her artwork, adding music, a video, a few facts about Lord Ganesha, and an easy way to share it with others.
+    
+  
+- title: Screenshot
+  images: 
+  - /assets/images/projects/ganesh-chaturthi/ganesh-chaturthi.webp
+    
+- title: Spark
+  content: |
+    During Ganesh Chaturthi, my sister was sitting beside me and drawing a handmade greeting card for the festival.
+    
+    I was sitting at home with nothing to do. While watching her draw, I thought,
+    
+    **"Why not turn this greeting card into a website?"**
+    
+    That idea became this project.
+    
+    
+- title: Journey
+  content: |
+    I used my sister's greeting card as the inspiration for the design and recreated it digitally. I kept the same style and artwork while adapting it for the web.
+    
+    To make it feel more alive, I added a Ganesh song that plays with a button, embedded a YouTube video about Lord Ganesha, included a few interesting facts, and added a WhatsApp share button so anyone could send the greeting to friends and family.
+    
+    The entire website was built in a single evening, and my sister's artwork became the heart of the project.
+    
+    
+- title: Credits
+  content: |
+    **Artwork & Design Inspiration**
+    
+    My sister created the original handmade greeting card that inspired the visual design of this website.
+
+
+- title: Links
+  livedemo: https://srikanth9x.github.io/ganesh-chaturthi
+  github: https://github.com/srikanth9x/ganesh-chaturthi
+  
+  
+- title: Related Projects
+  content: |
+    - [Ugadi](https://srikanth9x.github.io/ugadi)

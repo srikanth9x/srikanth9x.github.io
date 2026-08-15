@@ -1,0 +1,50 @@
+- title: BrickHit
+  slug: brickhit
+  featured: true
+  content: |
+    BrickHit is a reimagining of Breakout (Atari, 1976) built as a learning project by following Harvard’s CS50 2D game development course.
+  
+- title: Ruby Bird
+  slug: ruby-bird
+  content: |
+    Ruby Bird is a reimagining of Flappy Bird (Dong Nguyen, 2013) built as a learning project by following Harvard’s CS50 2D game development course.
+    
+- title: Ping Pong
+  slug: ping-pong
+  content: |
+    Ping Pong is a reimagining of Pong (Atari, 1972) built as a learning project by following Harvard’s CS50 2D game development course.
+  
+- title: DRKIST Attendance Tracker
+  slug: drkist-attendance-tracker
+  featured: true
+  content: |
+    DRKIST Attendance Tracker is a web-based attendance system I built for students and faculty at my college.
+
+- title: DuoMash
+  slug: duomash
+  featured: true
+  content: |
+    DuoMash was a small social experiment that randomly paired one boy and one girl every day.
+    
+- title: Ganesh Chaturthi
+  slug: ganesh-chaturthi
+  content: |
+    Ganesh Chaturthi is a small festival website inspired by a greeting card designed by my sister.
+    
+- title: Memory Game
+  slug: memory-game
+  featured: true
+  content: |
+    Memory Game is a simple browser game where players flip cards and match identical pairs before the timer runs out.
+    
+- title: Dice Toss Simulator
+  slug: dice-toss-simulator
+  content: |
+   Dice Toss Simulator is a small JavaScript project that simulates rolling a dice and flipping a coin.
+    
+- title: Dittoify
+  slug: dittoify
+  featured: true
+  content: |
+    Dittoify is an interactive CSS tool that lets you design a button visually and copy the generated CSS into your own project.
+    

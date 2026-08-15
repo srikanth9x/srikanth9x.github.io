@@ -1,0 +1,13 @@
+- title: Reading
+  content: |
+    I'm reading *Atomic Habits by James Clear*. I want to understand how small habits can actually change the way I work and learn.
+    
+
+- title: Learning
+  content: |
+    I'm practicing the *math* needed for machine learning and improving my *Python* skills. I have learned some of these things before, but I want to go through them again and understand them better. I prefer learning by building, so I'm trying to use what I learn instead of just studying it.
+    
+    
+- title: Building
+  content: |
+    I'm building *SignChat*, a *sign language to text* translation project. I'm currently working on the alphabet recognition part, where I'm teaching it to recognize *Indian Sign Language* gestures for the English alphabet. I'm improving it as I learn more about machine learning and computer vision.

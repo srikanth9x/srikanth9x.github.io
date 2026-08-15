@@ -1,0 +1,98 @@
+- title: In 30 Seconds
+  content: |
+    [DuoMash](https://duomash.web.app){: target="_blank"} was a small social experiment that randomly paired one boy and one girl every day.
+    
+    I built it to encourage interaction between students in my new college while also challenging myself to build my first real web application with authentication, a database, and real users.
+    
+    The experiment lasted only three days before I shut it down, but it taught me one of the biggest lessons about building products.
+    
+  
+- title: Screenshot
+  images:
+  - /assets/images/projects/duomash/duomash.webp
+  
+    
+- title: Spark
+  content: |
+    When I joined college, I noticed something.
+    
+    My entire friend circle consisted of boys. We never talked to girls, and girls never talked to us. There was almost no interaction between the two groups.
+    
+    Around the same time, I watched The Social Network. The FaceMash interface caught my attention. Instead of comparing people like the movie, I got a different idea.
+    
+    **What if every day one random boy and one random girl were paired together?**
+    
+    Not as a competition, but simply to encourage people to know each other.
+    
+    That idea became DuoMash.
+    
+    
+- title: Vision
+  content: |
+    At that time, I had just started learning backend development. Until then, I had only built static websites.
+    
+    I wanted to build something that felt like a real web application.
+    
+    DuoMash became my first project with user authentication, a real database, user profiles, and backend logic.
+    
+    Since I couldn't afford a server that supported scheduled jobs, I couldn't automate the daily pairing process. Instead, every day I manually logged into the admin panel and clicked a button to generate a new pair.
+    
+    It wasn't the perfect solution, but it worked, and it allowed me to launch the project without spending money.
+    
+    
+- title: Journey
+  content: |
+    The idea spread very quickly among the boys in my college.
+      
+    Within three days, more than a hundred boys had registered.
+      
+    But fewer than ten girls joined.
+      
+    That completely broke the idea.
+      
+    Since there weren't enough girls, the same girls kept getting paired again and again while many boys never got matched.
+      
+    Technically, everything was working exactly as I had built it.
+      
+    The real problem wasn't the code.
+      
+    The real problem was the people.
+    
+- title: What Went Wrong
+  content: |
+    The biggest mistake I made wasn't technical.
+    
+    It was assuming I understood the users before talking to them.
+    
+    I designed the product based on what I thought people wanted instead of asking them first.
+    
+    As more people started using DuoMash, I also realized it was slowly being perceived differently from what I had originally intended. My goal was simply to encourage friendly interaction, but I became uncomfortable with the direction it was taking.
+    
+    Instead of trying to force the project to continue, I decided to shut it down after only three days.
+    
+    Looking back, I think that was the right decision.
+    
+    
+- title: What I Learned
+  content: |
+    DuoMash changed the way I think about building products.
+    
+    Before this project, I thought if the code worked, the project would work.
+    
+    After DuoMash, I realized that's not true.
+    
+    People don't always use products the way developers imagine.
+    
+    This project also became my first real experience building authentication, working with databases, handling real users, and maintaining a web application.
+    
+    Technically, it was a huge step forward.
+    
+    But the biggest lesson wasn't about programming.
+    
+    It was about understanding people before building for them.
+    
+    
+- title: Links
+  livedemo: https://duomash.web.app
+  github: https://github.com/srikanth9x/duomash
+  

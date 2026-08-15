@@ -1,0 +1,44 @@
+- title: In 30 Seconds
+  content: |
+    [Ping Pong](https://srikanth9x.itch.io/ping-pong) is a reimagining of Pong (Atari, 1972) built as a learning project by following Harvard's CS50 2D game development course.
+    
+    I followed the course step by step and learned Lua and LÖVE2D while building it. Since I was developing on my phone, I adapted the keyboard controls from the course to work with a touchscreen.
+    
+
+
+- title: Gameplay
+  youtube: 3L6jGKrrejM
+
+
+- title: Screenshots
+  images:
+  - /assets/images/projects/ping-pong/start.webp
+  - /assets/images/projects/ping-pong/play.webp
+  - /assets/images/projects/ping-pong/win.webp
+  
+
+
+- title: Spark
+  content: |
+    I already knew about CS50x, and at the time I wanted to learn how to build games. I searched for a game development course and found Harvard's CS50 2D game development [course](https://cs50.harvard.edu/games). I just started learning from it.
+
+
+- title: Journey
+  content: |
+    I followed the instructor step by step while building the game. This was also my first time learning Lua and LÖVE2D. Lua was easier for me to pick up because I already knew JavaScript.
+    
+    Since I was building the game on my phone, I immediately realized that the keyboard controls used in the course wouldn't work for me. A touchscreen was the only option I had.
+    
+    Instead of writing the input code for keyboard keys, I changed it to use touch input. I used touch-pressed and touch-released events to control the paddles.
+    
+    I sketched my own touchscreen control layout and divided the screen into four regions: P1L, P1R, P2L, and P2R. P1L and P1R control Player 1's paddle, while P2L and P2R control Player 2's paddle.
+    
+    When a player touches the left or right region, the corresponding paddle moves in that direction. Apart from adapting the controls, I mostly followed the implementation from the course.
+    
+  images:
+  - /assets/images/projects/ping-pong/layout.webp
+  
+
+- title: Links
+  download: https://srikanth9x.itch.io/ping-pong
+  github: https://github.com/srikanth9x/ping-pong

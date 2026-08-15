@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div id="page">
+  {% include nav.html %}
+  
+  <main>
+    {% include title.html %}
+    
+    {% assign obj = site.data %}
+    
+    {% assign parts = page.data | split: "/" %}
+    
+    {% for part in parts %}
+      {% assign obj = obj[part] %}
+    {% endfor %}
+    
+    {% assign sections = obj %}
+    
+    {% for section in sections %}
+      
+      {% assign url = nil %}
+      
+      {% if section.slug %}
+        {% assign url = "/" | append: page.data | append: "/" | append: section.slug | append: "/" %}
+      {% endif %}
+      
+      {% include card.html
+        title=section.title
+        content=section.content
+        images=section.images
+        youtube=section.youtube
+        livedemo=section.livedemo
+        download=section.download
+        github=section.github
+        url=url
+        link_text=page.card_action
+      %}
+    {% endfor %}
+  </main>
+  
+  {% if page.continued %}
+    <section class="card" id="to-be-continued">
+      <h2>to be continued...</h2>
+    </section>
+  {% endif %}
+</div>

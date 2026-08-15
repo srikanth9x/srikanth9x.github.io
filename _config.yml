@@ -1,0 +1,23 @@
+name: Bandari Srikanth
+email: srikanth9x@gmail.com
+username: srikanth9x
+
+description: |
+  I build things to solve my problems and share them with people facing the same problems.
+  
+note: This is my DEN on the internet.
+
+url: 'https://srikanth9x.pages.dev'
+baseurl: ''
+
+lang: en
+timezone: Asia/Kolkata
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge

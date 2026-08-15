@@ -1,0 +1,48 @@
+- title: In 30 Seconds
+  content: |
+   [Memory Game](https://srikanth9x.github.io/memory-game){: target="_blank"} is a simple browser game where players flip cards and match identical pairs before the timer runs out.
+    
+    I built it while learning game development with vanilla JavaScript. It was one of my first games and introduced me to building interactive game logic.
+    
+
+- title: Screenshot
+  images:
+  - /assets/images/projects/memory-game/memory-game.webp
+  
+  
+- title: Spark
+  content: |
+    After getting comfortable with small web projects, I wanted to build something more exciting. Games felt like the perfect way to practice programming while creating something fun.
+    
+    While searching for game development tutorials on YouTube, I found a FreeCodeCamp video by [Ania Kubów](https://youtube.com/@aniakubow){: target="blank"} about building games with vanilla JavaScript.
+    
+    The video contained several games, but the Memory Game caught my attention the most. So I decided to build it myself.
+    
+    
+- title: Journey
+  content: |
+    I followed the tutorial to understand how the game logic worked instead of simply copying the code.
+    
+    As I built the project, I started changing parts of it to make it feel like my own. I redesigned the user interface, replaced the image-based cards with emojis, and added a countdown timer that freezes the game when the time reaches zero.
+    
+    By the end, the project wasn't just a tutorial anymore. It had become my own version of the Memory Game.
+    
+
+- title: My Changes
+  content: |
+    Instead of recreating the tutorial exactly, I made a few changes that reflected my own ideas.
+    
+    - Redesigned the interface with my own styling.
+    
+    - Replaced image cards with emojis.
+    
+    - Added a countdown timer.
+    
+    - Froze the game automatically when the timer reached zero.
+    
+    These changes were small, but they taught me that tutorials are a starting point, not the final destination.
+    
+    
+- title: Links
+  livedemo: https://srikanth9x.github.io/memory-game
+  github: https://github.com/srikanth9x/memory-game
