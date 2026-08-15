@@ -5,35 +5,72 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ page.title }}  {{ site.name }}</title>
+  <title>
+    {% if page.title %}
+      {{ page.title }} | {{ site.name }}
+    {% else %}
+      {{ site.name }}
+    {% endif %}
+  </title>
 
-  <link rel="icon" href="{{ '/assets/images/arcet.webp' | relative_url }}" type="image/png">
+  <meta name="description"
+        content="{{ page.description | default: site.description }}">
 
-  <link rel="stylesheet" 
-        href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="canonical"
+        href="{{ page.url | absolute_url }}">
         
-  {% if page.code %}      
-    <link rel="stylesheet" 
-      href="/assets/css/rouge.css">
+  {% if page.noindex %}
+    <meta name="robots" content="noindex, follow">
   {% endif %}
-  
+
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+        content="{% if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
+  <meta property="og:description"
+        content="{{ page.description | default: site.description }}">
+  <meta property="og:url"
+        content="{{ page.url | absolute_url }}">
+  <meta property="og:image"
+        content="{{ '/assets/images/avatar.webp' | absolute_url }}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title"
+        content="{% if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
+  <meta name="twitter:description"
+        content="{{ page.description | default: site.description }}">
+  <meta name="twitter:image"
+        content="{{ '/assets/images/avatar.webp' | absolute_url }}">
+
+  <link rel="icon"
+        href="{{ '/assets/images/favicon.webp' | relative_url }}"
+        type="image/webp">
+
+  <link rel="stylesheet"
+        href="{{ '/assets/css/main.css' | relative_url }}">
+
+  {% if page.code %}
+    <link rel="stylesheet"
+          href="{{ '/assets/css/rouge.css' | relative_url }}">
+  {% endif %}
+
   {% if page.math %}
     <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+          href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 
     <script defer
-      src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+            src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
 
     <script defer
-      src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+            src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
   {% endif %}
 </head>
+
 <body>
 
   {{ content }}
 
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-  
+
   {% if page.math %}
     <script>
       window.addEventListener("load", () => {
@@ -41,13 +78,12 @@
           delimiters: [
             { left: "\\[", right: "\\]", display: true },
             { left: "\\(", right: "\\)", display: false }
-            ],
-          
-            throwOnError: false
+          ],
+          throwOnError: false
         });
       });
     </script>
   {% endif %}
-  
+
 </body>
 </html>
