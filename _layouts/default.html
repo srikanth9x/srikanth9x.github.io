@@ -8,7 +8,9 @@
   <meta name="google-site-verification" content="Xc4q0Syrz6ueTSWr0FjK81UhtMVRVTb0mienlS9RU5Q" />
 
   <title>
-    {% if page.title %}
+    {% if page.collection == "projects" %}
+      {{ page.title }} | Projects | {{ site.name }}
+    {% elsif page.title %}
       {{ page.title }} | {{ site.name }}
     {% else %}
       {{ site.name }}

@@ -64,7 +64,7 @@ layout: default
   <!--Now-->
   <section class="card">
     <h2 class="cardTitle">What I'm doing now?</h2>
-    <a href="{{ '/now/' | relative_url' }}" class="cardAction">
+    <a href="{{ '/now/' | relative_url }}" class="cardAction">
       <p>have a look
         <i class="iconoir-arrow-up-right"></i>
       </p>
