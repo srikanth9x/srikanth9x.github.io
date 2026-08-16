@@ -18,7 +18,7 @@ layout: default
     <!--Name and Email-->
     <section id="plate">
       <div id="namePlate">
-        <h1 id="name"><a href="/">{{ site.name }}</a></h1>
+        <h1 id="name"><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
         <a href="https://arcet.vercel.app" target="_blank">
           <img id="badge" height="32" width="32" src="assets/images/arcet.webp" alt="Arcet" />
         </a>
@@ -54,7 +54,7 @@ layout: default
   <section class="card" id="meIn3Secs">
     <h2 class="cardTitle">Me in 3 seconds</h2>
     <p>{{ site.description }}</p>
-    <a href="/about" class="cardAction">
+    <a href="{{ '/about/' | relative_url }}" class="cardAction">
       <p>me in 3 minutes
         <i class="iconoir-arrow-up-right"></i>
       </p>
@@ -64,7 +64,7 @@ layout: default
   <!--Now-->
   <section class="card">
     <h2 class="cardTitle">What I'm doing now?</h2>
-    <a href="/now" class="cardAction">
+    <a href="{{ '/now/' | relative_url' }}" class="cardAction">
       <p>have a look
         <i class="iconoir-arrow-up-right"></i>
       </p>
@@ -74,7 +74,7 @@ layout: default
  <!--   
  "Friends" - Temporary Drop-OFF
  
-  <a href="/friends" class="card link" id="friends">
+  <a href="{{ '/friends/ | relative_url '}}" class="card link" id="friends">
     <p class="cardTitle">Friends</p>
     <i class="iconoir-arrow-up-right"></i>
   </a>
@@ -97,7 +97,7 @@ layout: default
       </a>
     {% endfor %}
     <br>
-    <a href="/projects" class="cardAction">
+    <a href="{{ '/projects/' | relative_url }}" class="cardAction">
       <p>more here
         <i class="iconoir-arrow-up-right"></i>
       </p>
