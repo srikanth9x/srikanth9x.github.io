@@ -17,4 +17,16 @@ sitemap: false
   {% endunless %}
 {% endfor %}
 
+{% for collection in site.collections %}
+  {% for document in collection.docs %}
+    {% unless document.sitemap == false %}
+    <url>
+      <loc>{{ document.url | absolute_url }}</loc>
+      {% if document.last_updated %}
+      <lastmod>{{ document.last_updated }}</lastmod>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
 </urlset>
