@@ -19,8 +19,8 @@ layout: default
     <section id="plate">
       <div id="namePlate">
         <h1 id="name"><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
-        <a href="https://arcet.vercel.app" target="_blank">
-          <img id="badge" height="32" width="32" src="assets/images/arcet.webp" alt="Arcet" />
+        <a href="https://arcetworld.github.io/" target="_blank">
+          <img id="badge" height="32" width="32" src="https://arcetworld.github.io/assets/images/arcet.webp" alt="Arcet" />
         </a>
       </div>
       <div id="mailPlate">
