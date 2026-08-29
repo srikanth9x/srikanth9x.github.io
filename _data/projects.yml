@@ -1,3 +1,8 @@
+- title: Univariate Linear Regression - Boyle's Law
+  slug: univariate-linear-regression-boyle-s-law
+  content: |
+    ULR-BL is a hands-on machine learning project I built while learning Andrew Ng's Machine Learning Specialization.
+
 - title: BrickHit
   slug: brickhit
   featured: true
@@ -47,4 +52,3 @@
   featured: true
   content: |
     Dittoify is an interactive CSS tool that lets you design a button visually and copy the generated CSS into your own project.
-    
