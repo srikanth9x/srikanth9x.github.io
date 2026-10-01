@@ -1,7 +1,12 @@
+- title: Predicting Airfoil Self-Noise with Regression
+  slug: predicting-airfoil-self-noise-with-regression
+  content: |
+    This is a hands-on machine learning project I built while learning Andrew Ng's Machine Learning Specialization.
+
 - title: Univariate Linear Regression - Boyle's Law
   slug: univariate-linear-regression-boyle-s-law
   content: |
-    ULR-BL is a hands-on machine learning project I built while learning Andrew Ng's Machine Learning Specialization.
+    This is a hands-on machine learning project I built while learning Andrew Ng's Machine Learning Specialization.
 
 - title: BrickHit
   slug: brickhit
