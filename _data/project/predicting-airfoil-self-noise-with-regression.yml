@@ -39,7 +39,7 @@
 
 
 - title: Journey
-   content: |
+  content: |
      I started by inspecting the dataset and understanding its structure.
      
      It contains 1,503 observations, with five input features and one target: scaled sound pressure.
