@@ -27,6 +27,7 @@
 - title: Vision
   content: |
     I wanted to use the concepts from Week 2 in one project:
+
     
     - Multiple inputs
     - Feature scaling
@@ -35,6 +36,7 @@
     - Polynomial Regression
     - Predictions on unseen data
 
+    
     The goal was simple: take what I had learned and actually make it work.
 
 
@@ -52,7 +54,7 @@
      
      After that, I implemented the regression machinery from scratch: prediction, cost calculation, gradient calculation, and batch gradient descent.
      
-     ## Multiple Linear Regression
+     ### Multiple Linear Regression
 
      The first model used all five input features to predict scaled sound pressure.
      
@@ -62,7 +64,7 @@
      
      The test cost was: **12.8558**
 
-     ## Polynomial Regression
+     ### Polynomial Regression
 
      After training the Multiple Linear Regression model, I wanted to see what happened when the model was given additional polynomial features.
      
